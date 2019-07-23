@@ -1,1 +1,2 @@
 include ':app', ':rtsp_ijk', ':ijkplayer-java', ':ijkplayer-x86_64', ':ijkplayer-x86', ':ijkplayer-armv5', ':ijkplayer-arm64', ':ijkplayer-exo', ':ijkplayer-armv7a'
+include ':rtsp_ijk'
