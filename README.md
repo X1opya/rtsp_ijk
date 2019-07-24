@@ -120,5 +120,5 @@ static int packet_queue_get_or_buffering(FFPlayer *ffp, PacketQueue *q, AVPacket
 
 ![](https://i.ibb.co/xM5yxJK/2019-07-24-16-14-24.png)
 
-aar файл появится по пути ijkplayer-<ABI>/build/outputs/aar
+aar файл появится по пути ijkplayer-***/build/outputs/aar
 
