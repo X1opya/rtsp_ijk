@@ -1,4 +1,4 @@
-include ':rtsp_ijk'
+//include ':rtsp_ijk',':ijkplayer-armv7a', ':ijkplayer-exo', ':ijkplayer-arm64', ':ijkplayer-armv5', ':ijkplayer-x86', ':ijkplayer-x86_64', ':ijkplayer-java'
 include ':ijkplayer-java'
 include ':ijkplayer-x86_64'
 include ':ijkplayer-x86'
