@@ -104,3 +104,8 @@ static int packet_queue_get_or_buffering(FFPlayer *ffp, PacketQueue *q, AVPacket
     
     cd ..
     ./compile-ijk.sh all
+    
+    
+**Импорт в проект:**
+A) Импортировать как модули android/ijkplayer 
+Б) Сгенерировать arr файлы от каждого модуля 
