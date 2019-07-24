@@ -3,7 +3,7 @@
 # **Скомпилированная версия IJK Player 0.8.8 для RTSP, содержит все основные кодеки.**
 
 
-##**Компиляция для Linux:**
+## **Компиляция для Linux:**
 
 sudo apt-get install yasm
 
@@ -107,7 +107,8 @@ static int packet_queue_get_or_buffering(FFPlayer *ffp, PacketQueue *q, AVPacket
     
     
     
-##**Импорт в проект:**
+## **Импорт в проект:**
 
-A) Импортировать как модули android/ijkplayer 
-Б) Сгенерировать arr файлы от каждого модуля 
+**A) Импортировать как модули android/ijkplayer**
+
+**Б) Сгенерировать arr файлы от каждого модуля **
