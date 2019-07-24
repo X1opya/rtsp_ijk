@@ -22,7 +22,7 @@ export ANDROID_NDK=<путь до [NDK 10](https://dl.google.com/android/reposit
     export COMMON_FF_CFG_FLAGS="$COMMON_FF_CFG_FLAGS --enable-demuxer=rtp"
 
     cd config
-Поместить файл rtsp-lite.sh в папку
+Поместить файл rtsp-lite.sh в папку config
 
 
 
