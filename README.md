@@ -111,4 +111,14 @@ static int packet_queue_get_or_buffering(FFPlayer *ffp, PacketQueue *q, AVPacket
 
 **A) Импортировать как модули android/ijkplayer**
 
-**Б) Сгенерировать arr файлы от каждого модуля**
+Импортировать в проект все модули ijkplayer-*** из папки ijkplayer. Модули потребуют папку tools, скопировать ее к модулям.
+Если используется обертка GSYVideoPlayer, то модули *-exo *-java не нужны. В процессе импорта решить ошибки с gradle (Android Studio поможет)
+
+**Б) Сгенерировать aar файлы от каждого модуля**
+
+Открыть папку ijkplayer через Android Studio. Поочередно вызвать build у каждого модуля, чтобы сгенерировать aar библиотеку.
+
+![](https://i.ibb.co/xM5yxJK/2019-07-24-16-14-24.png)
+
+aar файл появится по пути ijkplayer-<ABI>/build/outputs/aar
+
