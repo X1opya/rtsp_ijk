@@ -6,6 +6,7 @@
 **Компиляция для Linux:**
 
 sudo apt-get install yasm
+
 export ANDROID_SDK=<путь до SDK>
 
 export ANDROID_NDK=<путь до [NDK 10](https://dl.google.com/android/repository/android-ndk-r10e-windows-x86_64.zip?hl=ru "NDK 10"))>
